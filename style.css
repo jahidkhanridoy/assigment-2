@@ -1,0 +1,337 @@
+/* -----------------google fonts------------------ */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+   
+}
+main{
+    margin: 50px 120px;
+}
+.view-all{
+    display: none;
+}
+.container-1{
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 25px;
+    background-color: black;
+    margin-bottom: 100px;
+    
+}
+h1{
+    color: white;
+    font-size: 40px;
+}
+.watch-1{
+    background-color: darkcyan;
+    display: inline-block;
+    text-decoration: none;
+    background-image: linear-gradient(rgb(255, 73, 103), rgb(163, 20, 144));
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+}
+.white-text{
+   color: white;
+}
+.messi{
+    display: flex;
+    justify-items: center;
+    align-items: flex-end;
+
+
+   
+}
+a{
+    text-decoration: none;
+}
+.messi img{
+    width: 100%;
+
+    /* padding-top: 20px; */
+    margin: 0 auto;
+    /* margin-bottom: -7px; */
+}
+.messi-skill{
+    padding: 50px;
+}
+/* --------------------2nd partr--------------------- */  
+
+.container-2{
+  
+    display: flex;
+    gap: 30px;
+
+}
+.box-1{
+    width: 250px;
+}
+.box-2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+    width: 100%;
+}
+.winer{
+    border: 1px solid #E8E8E8;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#button{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    padding: 10px;
+    height: 160px;
+    border-radius: 10px;
+    
+}
+.white-button{
+    width: 100%;
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #161616;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.red-button{
+    width: 100%;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    color: #ffffff;
+    background-color: rgb(255, 0, 0);
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.psg{
+    padding-left: 15px;
+}
+.cart-img{
+    
+    width: 100%;
+}
+img{
+    width: 100%;
+}
+/* --------------------icon-style----------------------- */
+.fa-comment-dots{
+    padding-left: 25px;
+
+}
+.fa-clock{
+    padding-left: 15px;
+}
+.fa-facebook-square{
+    color: gray;
+}
+.fa-instagram-square{
+    color: gray;
+}
+.fa-twitter-square{
+    color: gray;
+}
+.fa-whatsapp-square{
+    color: gray;
+}
+.fa-linkedin{
+    color: gray;
+}
+
+
+/* --------------------footer style--------------------- */
+
+.goal{
+    display: inline-block;
+    padding-right: 50px;
+    padding-top: 100px;
+    padding-bottom:50px;
+    width: 0px;
+    height: 0px;
+    
+    /* text-align: center; */
+    
+    color: #ffffff;
+}
+.online{
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    border-top: 2px solid rgb(59, 51, 51);
+    margin: 0 auto;
+}
+.logo{
+    
+    color: rgb(216, 214, 214);
+    font-size: 40px;
+    
+}
+.footer-1 {
+    /* display: flex; */
+    /* justify-content: center; */
+    background: #000;
+    height: 444px;
+    text-align: center;
+
+}
+
+/* --------------------2nd partr--------------------- */  
+
+
+.vs{
+    padding-top: 30px;
+}
+
+/* .flags{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+    flex-grow: 1;
+} */
+.flags .team{
+   display: flex;
+   justify-content: space-between;
+   
+}
+.flags .team img{
+   width: 40%;
+}
+.flags .team-time{
+    text-align: center;
+}
+
+.flag{
+        border: 1px solid #E8E8E8;
+        background-color: white;
+        border-radius: 5px;
+    
+}
+
+
+
+
+/*--------------------- MEDIA QUEIARY -----------------*/
+
+/* --------------------MOBAIL DEVICE------------------ */
+
+@media only screen and (max-width:688px){
+
+    .container-1{
+        cursor: pointer;
+        display: grid;
+        grid-template-columns:1fr;
+        align-items: center;
+        border-radius: 25px;
+        background-color: black;
+        margin-bottom: 100px;
+        }
+    .container-2{
+    display: grid;
+    grid-template-columns:1fr;
+    align-items: center;
+    border-radius: 25px;
+    }
+    .box-1{
+        display: contents;
+        
+    }
+    .box-2{
+        
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    #button{
+        display: contents;
+        
+        
+    }
+    .online{
+        flex-direction: column;
+       
+    }
+    .logo{
+        
+        background-color: #000;
+        padding-bottom: 30px;
+
+    }
+    .footer{
+        background-color: #000;
+        
+
+    }
+}
+
+/* ------------------------------------------------------
+-------------------------TAB-VIEW-----------------------
+---------------------------------------------------------- */
+
+@media only screen and (min-width: 689px) and (max-width: 991px) {
+    .container-1{
+        cursor: pointer;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .messi{
+        height: 100%;
+    }
+    .container-2{
+        display: grid;
+        grid-template-columns:2fr;
+        align-items: center;
+        border-radius: 25px;
+        }
+        .box-1{
+            display: contents;
+            
+        }
+        .box-2{
+            grid-template-columns: repeat(2,1fr);
+            grid-gap: 20px;
+            
+        }
+        #button{
+           
+            flex-direction: row;
+            background-color: white;
+            height: auto;
+        }
+        .white-button{
+            margin-right: 10px;
+            
+        }
+        .red-button{
+           
+            padding: 5px 10px;
+        }
+        .view-all{
+            display: flex;
+            justify-content: center;
+            margin: 10px ;
+        }
+
+        .online{
+            flex-direction: row;
+            background-color: #000;
+        }
+        .logo{
+            
+            background-color: #000;
+            padding-bottom: 30px;
+    
+        }
+        .footer{
+            background-color: #000;
+        }
+}
